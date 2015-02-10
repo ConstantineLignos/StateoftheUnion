@@ -8,6 +8,17 @@ existing software packages, this repository serves as a starting point
 for researchers who want to understand how to perform simple text
 processing.
 
+The key scripts are:
+
+* `scrape.py`: Download the texts for SOTU
+
+* `count.py`: Process the texts into counts for individual words per
+  speech
+
+* `process_counts.py`: Process the counts into a CSV file
+
+* `analyze_counts.R`: Analyze the counts
+
 A few notes on state of the union (SOTU) addresses:
 
 * The SOTU was first broadcast on evening TV in 1965
