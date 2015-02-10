@@ -1,0 +1,17 @@
+# Python
+*.pyc
+
+# R
+*.Rproj
+.Rproj.user/
+
+# Editors
+*~
+*.swp
+
+# Data
+*.csv
+*.txt
+
+# OS files
+.DS_Store
