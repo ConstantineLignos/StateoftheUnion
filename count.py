@@ -23,7 +23,7 @@ def make_freq_counts():
         input_dir = sys.argv[1]
         output_dir = sys.argv[2]
     except IndexError:
-        print >> sys.stderr, "Usage: make_freq_counts input_dir output_dir"
+        print >> sys.stderr, "Usage: count input_dir output_dir"
         sys.exit(1)
 
     try:
